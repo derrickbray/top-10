@@ -1,2 +1,21 @@
+$c-link: #004C2B;
+$c-text: transparentize($c-link, 0.3);
+$c-background: transparentize($c-link, 0.7);
+
 
 @import 'reset';
+
+.nav {
+  background: $c-background;
+
+  &__title {
+    margin-top: 0;
+    text-align: center;
+    color: $c-text;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-around;
+  }
+}
