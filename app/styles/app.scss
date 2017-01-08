@@ -17,5 +17,14 @@ $c-background: transparentize($c-link, 0.7);
   &__bottom {
     display: flex;
     justify-content: space-around;
+
+    a {
+      color: $c-link;
+      text-decoration: none;
+
+      :hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
