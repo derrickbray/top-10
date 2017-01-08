@@ -5,3 +5,12 @@ $c-background: transparentize($c-link, 0.7);
 
 @import 'reset';
 @import 'nav';
+
+.intro {
+  color: $c-text;
+  text-align: center;
+
+  &__text {
+    color: $c-text;
+  }
+}
