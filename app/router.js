@@ -7,6 +7,13 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('podcast');
+  this.route('books');
+  this.route('movies');
+  this.route('photos');
+  this.route('people');
+  this.route('moments');
+  this.route('eotw');
 });
 
 export default Router;
