@@ -1,0 +1,38 @@
+.nav {
+  background: $c-background;
+
+  &__title {
+    margin-top: 0;
+    text-align: center;
+
+    a {
+      color: $c-text;
+      text-decoration: none;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      color: $c-link;
+      text-decoration: none;
+
+      :hover {
+        border-bottom: 0.1rem solid $c-link;
+      }
+    }
+
+    h3 {
+      margin: 0;
+      padding: 1rem;
+      margin-bottom: 0.5rem;
+
+      :hover {
+        // margin-bottom: 0.4rem;
+        padding: 0.9rem;
+      }
+    }
+  }
+}
