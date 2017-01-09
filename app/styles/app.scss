@@ -1,8 +1,6 @@
 $c-link: #004C2B;
 $c-text: transparentize($c-link, 0.3);
 $c-background: transparentize($c-link, 0.7);
-
-
 @import 'reset';
 @import 'nav';
 @import 'index';
@@ -22,15 +20,33 @@ $c-background: transparentize($c-link, 0.7);
   background: $c-background;
   color: $c-text;
 
-  &-content__title {
-    margin-top: 0;
-    text-align: center;
-  }
+  &-content {
+    display: flex;
 
-  &-content__site {
-    a {
-      color: $c-link;
-      text-decoration: none;
+    &__img {
+      width: 10rem;
+      object-fit: cover;
+
+      &-pic {
+        width: 100%;
+      }
+    }
+
+    &__text {
+      width: 100%;
+      padding: 1rem;
+    }
+
+    &__title {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    &__site {
+      a {
+        color: $c-link;
+        text-decoration: none;
+      }
     }
   }
 }
