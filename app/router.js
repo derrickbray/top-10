@@ -7,7 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('podcast');
+  this.route('podcast', function() {
+    this.route('top-ten');
+  });
   this.route('books');
   this.route('movies');
   this.route('photos');
