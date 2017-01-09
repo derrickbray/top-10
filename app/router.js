@@ -11,6 +11,7 @@ Router.map(function() {
     this.route('top-ten', {path: '/'});
     this.route('history');
     this.route('science');
+    this.route('philosophy');
   });
   this.route('books', function() {
     this.route('must-read', {path: '/'});
