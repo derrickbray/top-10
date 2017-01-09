@@ -1,0 +1,30 @@
+.link-flex {
+  display: flex;
+}
+.link-box {
+  width: 25%;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  background: $c-background;
+
+  &__title {
+    margin-top: 0;
+    color: $c-text;
+    text-align: center;
+  }
+
+  &__links {
+    padding: 0.5rem;
+
+    :hover {
+      text-decoration: underline;
+    }
+  }
+
+  a {
+    color: $c-link;
+    text-decoration: none;
+
+  }
+}

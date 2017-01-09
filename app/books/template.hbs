@@ -1,7 +1,19 @@
 <div class="container">
-  <div class="link-box">
-    <h3 class="link-box__title">Books</h3>
-    <div class="link-box__links">{{#link-to 'index'}}link{{/link-to}}</div>
+  <div class="link-flex">
+    <div class="link-box">
+      <h3 class="link-box__title">Books</h3>
+      <div class="link-box__links">
+        {{#link-to 'podcast.top-ten'}}Top Ten Favorites{{/link-to}}
+      </div>
+      <div class="link-box__links">
+        {{#link-to 'podcast.top-ten'}}History Podcasts{{/link-to}}
+      </div>
+      <div class="link-box__links">
+        {{#link-to 'podcast.top-ten'}}Science Podcasts{{/link-to}}
+      </div>
+    </div>
+    <div class="link-content">
+      {{outlet}}
+    </div>
   </div>
-  {{outlet}}
 </div>

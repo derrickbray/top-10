@@ -6,22 +6,4 @@ $c-background: transparentize($c-link, 0.7);
 @import 'reset';
 @import 'nav';
 @import 'index';
-
-.link-box {
-  width: 25%;
-  margin-top: 2rem;
-  padding: 1rem;
-  border-radius: 0.4rem;
-  background: $c-background;
-
-  &__title {
-    margin-top: 0;
-    color: $c-text;
-    text-align: center;
-  }
-
-  a {
-    color: $c-link;
-    text-decoration: none;
-  }
-}
+@import 'link-box';
