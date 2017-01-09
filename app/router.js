@@ -13,12 +13,12 @@ Router.map(function() {
     this.route('science');
   });
   this.route('books', function() {
-    this.route('must-read');
+    this.route('must-read', {path: '/'});
     this.route('fiction');
     this.route('non-fiction');
   });
   this.route('movies', function() {
-    this.route('favorite');
+    this.route('favorite', {path: '/'});
     this.route('guilty');
     this.route('tv');
   });
