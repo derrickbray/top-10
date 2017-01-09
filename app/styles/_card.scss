@@ -1,0 +1,44 @@
+.link-content {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 2rem 0 0 2rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  background: $c-background;
+  color: $c-text;
+
+  &-content {
+    display: flex;
+
+    &__img {
+      width: 10rem;
+      object-fit: cover;
+
+      &-pic {
+        width: 100%;
+      }
+    }
+
+    &__text {
+      width: 100%;
+      padding: 1rem;
+    }
+
+    &__title {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    &__site {
+      a {
+        color: $c-link;
+        text-decoration: none;
+      }
+    }
+  }
+}
