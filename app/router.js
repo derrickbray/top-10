@@ -12,7 +12,11 @@ Router.map(function() {
     this.route('history');
     this.route('science');
   });
-  this.route('books');
+  this.route('books', function() {
+    this.route('must-read');
+    this.route('fiction');
+    this.route('non-fiction');
+  });
   this.route('movies');
   this.route('photos');
   this.route('people');

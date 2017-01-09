@@ -1,4 +1,11 @@
-$c-link: #004C2B;
+// #004C2B
+// #3E2723
+// #263238
+// #004D40
+// #311B92
+// #212121
+
+$c-link: #212121;
 $c-text: transparentize($c-link, 0.3);
 $c-background: transparentize($c-link, 0.9);
 @import 'reset';
