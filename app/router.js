@@ -17,7 +17,11 @@ Router.map(function() {
     this.route('fiction');
     this.route('non-fiction');
   });
-  this.route('movies');
+  this.route('movies', function() {
+    this.route('favorite');
+    this.route('guilty');
+    this.route('tv');
+  });
   this.route('photos');
   this.route('people');
   this.route('moments');
