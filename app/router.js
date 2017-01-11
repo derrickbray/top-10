@@ -24,7 +24,9 @@ Router.map(function() {
     this.route('tv');
   });
   this.route('photos');
-  this.route('people');
+  this.route('people', function() {
+    this.route('people-you-should-know');
+  });
   this.route('moments');
   this.route('eotw');
 });
