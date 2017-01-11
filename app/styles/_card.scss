@@ -36,9 +36,15 @@
     }
 
     &__site {
+
+      :hover {
+        text-decoration: underline;
+      }
+
       a {
         color: $c-link;
         text-decoration: none;
+
       }
     }
   }
