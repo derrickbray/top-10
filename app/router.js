@@ -26,6 +26,7 @@ Router.map(function() {
   this.route('photos');
   this.route('people', function() {
     this.route('people-you-should-know');
+    this.route('interesting');
   });
   this.route('moments');
   this.route('eotw');
