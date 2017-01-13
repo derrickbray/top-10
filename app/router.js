@@ -29,7 +29,7 @@ Router.map(function() {
     this.route('interesting');
   });
   this.route('moments');
-  this.route('eotw');
+  this.route('ideas');
 });
 
 export default Router;
