@@ -25,12 +25,12 @@ Router.map(function() {
   });
   this.route('photos');
   this.route('people', function() {
-    this.route('people-you-should-know');
+    this.route('people-you-should-know', {path: '/'});
     this.route('interesting');
   });
   this.route('moments');
   this.route('ideas', function() {
-    this.route('strategy');
+    this.route('strategy', {path: '/'});
     this.route('science');
     this.route('political');
     this.route('historical');
