@@ -29,7 +29,7 @@ Router.map(function() {
     this.route('interesting');
   });
   this.route('moments', function() {
-    this.route('world-change');
+    this.route('world-change', {path: '/'});
   });
   this.route('ideas', function() {
     this.route('strategy');
