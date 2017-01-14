@@ -1,8 +1,13 @@
 .intro {
+  width: 100%;
   color: $c-text;
   text-align: center;
 
   &__text {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
     color: $c-text;
+    text-align: right;
   }
 }

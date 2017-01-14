@@ -5,9 +5,9 @@
 // #311B92
 // #212121
 
-$c-link: #212121;
+$c-link: #216e4d;
 $c-text: transparentize($c-link, 0.3);
-$c-background: transparentize($c-link, 0.9);
+$c-background: transparentize(#212121, 0.9);
 @import 'reset';
 @import 'nav';
 @import 'index';
