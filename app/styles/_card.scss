@@ -5,6 +5,11 @@
   flex-direction: column;
 }
 
+.scroll {
+  height: 85vh;
+  overflow: scroll;
+}
+
 .card {
   display: flex;
   flex-direction: column;
