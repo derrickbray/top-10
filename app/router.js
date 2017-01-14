@@ -28,12 +28,14 @@ Router.map(function() {
     this.route('people-you-should-know', {path: '/'});
     this.route('interesting');
   });
-  this.route('moments');
+  this.route('moments', function() {
+    this.route('world-change');
+  });
   this.route('ideas', function() {
-    this.route('strategy', {path: '/'});
+    this.route('strategy');
     this.route('science');
     this.route('political');
-    this.route('historical');
+    this.route('historical', {path: '/'});
   });
 });
 
