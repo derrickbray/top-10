@@ -3,11 +3,26 @@
   color: $c-text;
   text-align: center;
 
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: $c-text solid 1px;
+  }
+
   &__text {
     display: flex;
     justify-content: flex-end;
     width: 50%;
     color: $c-text;
     text-align: right;
+  }
+
+  &__link {
+    color: $c-link;
+    text-decoration: none;
+
+    :hover {
+      text-decoration: underline;
+    }
   }
 }
