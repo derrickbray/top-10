@@ -1,7 +1,7 @@
 {
   "name": "top-10",
   "version": "0.0.0",
-  "description": "Small description for top-10 goes here",
+  "description": "The most interesting people, ideas, podcasts, books, and events.  Ratings and reviews.",
   "private": true,
   "directories": {
     "doc": "doc",
