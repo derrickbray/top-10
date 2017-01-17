@@ -4,13 +4,11 @@
 }
 
 .link-box {
-  width: 25%;
-  // flex-grow: 1;
-  height: 60%;
-  margin: 2rem 2rem 0 0;
-  padding: 1rem;
-  border-radius: 0.4rem;
-  background: $c-background;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  background: $c-nav-background;
 
   &__title {
     margin-top: 0;

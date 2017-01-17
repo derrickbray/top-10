@@ -8,6 +8,7 @@
 $c-link: #212121;
 $c-text: transparentize($c-link, 0.3);
 $c-background: transparentize(#212121, 0.9);
+$c-nav-background: transparentize(#212121, 0.7);
 @import 'reset';
 @import 'nav';
 @import 'index';
