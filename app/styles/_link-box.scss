@@ -1,11 +1,13 @@
 .link-flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .link-box {
   width: 25%;
+  // flex-grow: 1;
   height: 60%;
-  margin-top: 2rem;
+  margin: 2rem 2rem 0 0;
   padding: 1rem;
   border-radius: 0.4rem;
   background: $c-background;
