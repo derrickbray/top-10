@@ -44,24 +44,25 @@
       right: 70%;
       width: 60%;
       height: 50vh;
+      font-family: 'Noto Sans', sans-serif;
     }
 
     &__title {
-      // margin-top: 0;
-      // text-align: center;
+      font-family: 'Cormorant', serif;
     }
 
     &__site {
+
+      a {
+        color: $c-gold;
+        text-decoration: none;
+        font-size: 0.7rem;
+      }
 
       :hover {
         text-decoration: underline;
       }
 
-      a {
-        color: $c-gold;
-        text-decoration: none;
-
-      }
     }
   }
 }
