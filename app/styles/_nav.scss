@@ -12,9 +12,10 @@
     padding-top: 1rem;
     text-align: center;
     font-size: 4rem;
+    border-bottom: $c-dark-grey solid 2px;
 
     a {
-      color: $c-text;
+      color: $c-dark-grey;
       text-decoration: none;
     }
   }
