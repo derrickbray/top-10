@@ -14,3 +14,37 @@ $c-nav-background: transparentize($c-link, 0.7);
 @import 'index';
 @import 'link-box';
 @import 'card';
+
+.cardz {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  // border: black solid 1px;
+
+  &-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    height: 50vh;
+    background: $c-background;
+
+    &__text {
+      position: absolute;
+      right: 75%;
+      width: 60%;
+      height: 50vh;
+    }
+
+    &__img {
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      // top: 25%;
+      left: 50%;
+      height: 40vh;
+      transform: translate(10%, 10%);
+      object-fit: cover;
+    }
+  }
+}
