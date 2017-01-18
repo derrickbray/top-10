@@ -23,15 +23,13 @@
     width: 55%;
     height: 50vh;
     margin-left: 9rem;
-    background: $c-background;
+    background: $c-tan;
 
     &__img {
       display: flex;
       justify-content: flex-end;
       position: absolute;
-      // top: 25%;
       left: 30%;
-      // width: 20rem;
       height: 40vh;
       transform: translate(10%, 10%);
       object-fit: cover;
@@ -49,8 +47,8 @@
     }
 
     &__title {
-      margin-top: 0;
-      text-align: center;
+      // margin-top: 0;
+      // text-align: center;
     }
 
     &__site {
@@ -60,7 +58,7 @@
       }
 
       a {
-        color: $c-link;
+        color: $c-gold;
         text-decoration: none;
 
       }
