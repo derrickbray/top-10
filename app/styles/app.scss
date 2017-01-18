@@ -19,19 +19,22 @@ $c-nav-background: transparentize($c-link, 0.7);
   display: flex;
   justify-content: center;
   margin: 2rem auto;
+  height: 70vh;
   // border: black solid 1px;
 
   &-content {
+    // border: red solid 1px;
     position: relative;
     display: flex;
     justify-content: center;
     width: 55%;
     height: 50vh;
+    margin-left: 9rem;
     background: $c-background;
 
     &__text {
       position: absolute;
-      right: 75%;
+      right: 70%;
       width: 60%;
       height: 50vh;
     }
@@ -45,6 +48,10 @@ $c-nav-background: transparentize($c-link, 0.7);
       height: 40vh;
       transform: translate(10%, 10%);
       object-fit: cover;
+
+      &-pic {
+        object-fit: fill;
+      }
     }
   }
 }
