@@ -9,6 +9,12 @@ $c-link: #212121;
 $c-text: transparentize($c-link, 0.3);
 $c-background: transparentize($c-link, 0.9);
 $c-nav-background: transparentize($c-link, 0.7);
+
+$c-dark-grey: #373737;
+$c-light-back: #f4f4f4;
+$c-tan: #dcd0c0;
+$c-gold: #c0b283;
+
 @import 'reset';
 @import 'nav';
 @import 'index';
@@ -45,6 +51,7 @@ $c-nav-background: transparentize($c-link, 0.7);
       position: absolute;
       // top: 25%;
       left: 50%;
+      // width: 20rem;
       height: 40vh;
       transform: translate(10%, 10%);
       object-fit: cover;

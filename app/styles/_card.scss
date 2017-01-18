@@ -12,33 +12,40 @@
 
 .card {
   display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  width: 100%;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  border-radius: 0.4rem;
-  background: $c-background;
-  color: $c-text;
+  justify-content: center;
+  margin: 2rem auto;
+  height: 70vh;
 
   &-content {
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+    width: 55%;
+    height: 50vh;
+    margin-left: 9rem;
+    background: $c-background;
 
     &__img {
-      width: 15rem;
-      min-width: 10rem;
-      // object-fit: cover;
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      // top: 25%;
+      left: 30%;
+      // width: 20rem;
+      height: 40vh;
+      transform: translate(10%, 10%);
+      object-fit: cover;
 
       &-pic {
-        width: 100%;
+        object-fit: fill;
       }
     }
 
     &__text {
-      width: 50%;
-      padding: 1rem;
+      position: absolute;
+      right: 70%;
+      width: 60%;
+      height: 50vh;
     }
 
     &__title {
