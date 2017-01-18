@@ -1,24 +1,24 @@
 .intro {
   width: 100%;
-  color: $c-text;
+  color: $c-dark-grey;
   text-align: center;
 
   &__box {
     display: flex;
     justify-content: space-between;
-    border-bottom: $c-text solid 1px;
+    border-bottom: $c-dark-grey solid 1px;
   }
 
   &__text {
     display: flex;
     justify-content: flex-end;
     width: 50%;
-    color: $c-text;
+    color: $c-dark-grey;
     text-align: right;
   }
 
   &__link {
-    color: $c-link;
+    color: $c-gold;
     text-decoration: none;
 
     :hover {
