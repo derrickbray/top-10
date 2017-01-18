@@ -1,10 +1,17 @@
+.app {
+  background: $c-light-back;
+  height: 100vh;
+}
+
 .nav {
-  background: $c-background;
+  background: $c-dark-grey;
 
   &__title {
-    margin-top: 0;
+    width: 100%;
+    margin: 0;
     padding-top: 1rem;
     text-align: center;
+    font-size: 4rem;
 
     a {
       color: $c-text;
@@ -15,14 +22,14 @@
   &__bottom {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
 
     a {
-      color: $c-link;
+      color: white;
       text-decoration: none;
 
       :hover {
-        border-bottom: 0.1rem solid $c-link;
+        border-bottom: 0.1rem solid white;
       }
     }
 
