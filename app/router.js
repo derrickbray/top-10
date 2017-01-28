@@ -37,6 +37,11 @@ Router.map(function() {
     this.route('political');
     this.route('historical', {path: '/'});
   });
+
+  this.route('index', function() {
+    this.route('west-civ');
+    this.route('science');
+  });
 });
 
 export default Router;
