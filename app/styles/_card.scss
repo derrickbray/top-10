@@ -1,6 +1,15 @@
 .link-content {
   width: 90%;
+  height: 60vh;
   margin: 0 auto;
+  background: $c-light-back;
+}
+
+.index-scroll {
+  width: 100%;
+  margin-top: 2rem;
+  height: 58vh;
+  overflow: scroll;
 }
 
 .scroll {
