@@ -39,7 +39,7 @@ Router.map(function() {
   });
 
   this.route('index', function() {
-    this.route('west-civ');
+    this.route('west-civ', {path: '/'});
     this.route('science');
   });
 });
