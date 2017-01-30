@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('index', {path: '/'}, function() {
+    this.route('west-civ', {path: '/'});
+    this.route('science');
+  });
   this.route('podcast', function() {
     this.route('top-ten', {path: '/'});
     this.route('history');
@@ -38,10 +42,6 @@ Router.map(function() {
     this.route('historical', {path: '/'});
   });
 
-  this.route('index', function() {
-    this.route('west-civ', {path: '/'});
-    this.route('science');
-  });
 });
 
 export default Router;
