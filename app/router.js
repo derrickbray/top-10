@@ -9,7 +9,9 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('index', {path: '/'}, function() {
     this.route('west-civ', {path: '/'});
-    this.route('science');
+    this.route('bio');
+    this.route('astro');
+    this.route('phy');
   });
   this.route('podcast', function() {
     this.route('top-ten', {path: '/'});
