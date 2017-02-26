@@ -14,7 +14,7 @@
 
 .scroll {
   width: 100%;
-  margin-top: 2rem;
+  // margin-top: 2rem;
   height: 68vh;
   overflow: scroll;
 }
@@ -26,6 +26,7 @@
   height: 70vh;
 
   @media(max-width: 500px) {
+    // flex-direction: column;
     height: 100vh;
   }
 
@@ -39,8 +40,12 @@
     background: $c-tan;
 
     @media(max-width: 500px) {
-      flex-direction: column;
-      max-width: 100%;
+      // flex-direction: column-reverse;
+      // justify-content: space-between;
+      // flex-wrap: wrap;
+      // position: static;
+      // width: 100%;
+      // max-width: 100%;
     }
 
     &__img {
@@ -77,8 +82,8 @@
       font-size: 0.8rem;
 
       @media(max-width: 500px) {
-        position: none;
-        margin-bottom: 20rem;
+        // position: none;
+        // margin-bottom: 20rem;
       }
     }
 
