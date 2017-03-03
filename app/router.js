@@ -32,10 +32,10 @@ Router.map(function() {
     this.route('world-change', {path: '/'});
   });
   this.route('ideas', function() {
+    this.route('historical', {path: '/'});
     this.route('strategy');
     this.route('science');
     this.route('political');
-    this.route('historical', {path: '/'});
   });
 
 });
