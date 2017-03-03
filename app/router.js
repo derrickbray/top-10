@@ -24,11 +24,6 @@ Router.map(function() {
     this.route('fiction');
     this.route('non-fiction');
   });
-  this.route('movies', function() {
-    this.route('favorite', {path: '/'});
-    this.route('guilty');
-    this.route('tv');
-  });
   this.route('photos');
   this.route('people', function() {
     this.route('people-you-should-know', {path: '/'});
