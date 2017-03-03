@@ -24,7 +24,6 @@ Router.map(function() {
     this.route('fiction');
     this.route('non-fiction');
   });
-  this.route('photos');
   this.route('people', function() {
     this.route('people-you-should-know', {path: '/'});
     this.route('interesting');
